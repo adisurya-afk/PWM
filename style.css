@@ -1,0 +1,26 @@
+/*css untuk background agar berada di atas body, bukan hanya pada bagian dasar html*/
+body,
+html {
+    background: url(nature.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*css untuk gambar, agar menjadi responsive, 
+dengan seperti itu ukuran gambar akan disesuaikan dengan device penguna*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*memberikan font family untuk seluruh tag "<p>"*/
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*memberikan font family untuk seluruh tag "<h4>"*/
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
